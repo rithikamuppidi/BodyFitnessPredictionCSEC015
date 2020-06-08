@@ -1,0 +1,115 @@
+.tabcontent {
+  display: none;
+}
+
+body{
+text-align: center;
+background-image:  url("https://piedmontlifestyle.com/wp-content/uploads/2017/03/man-jogging-outside-web.jpg");
+max-height: 100%;
+max-width: 100%;
+margin: 0;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+font-family: Arial;
+font-size:24px;
+color: white;
+}
+div{
+margin:0px;
+background-color: rgba(1,1,1,0.3);
+padding-top: 8px;
+padding-bottom: 8px;
+}
+
+/*Header Tab Buttons Styling*/
+.buttonstyle {
+background-color: rgba(0, 0, 0, 0.3);
+margin-top: 8px;
+color: white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+font-size: 17px;
+width: 25%;
+}
+
+.submitbuttonstyle {
+margin-top: 10px;
+background-color: black;
+color: white;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+font-size: 17px;
+width: 25%;"
+}
+
+.buttonstyle:hover {
+background-color: rgba(1,1,1,1);
+}
+
+.buttonstyle:focus {     
+background-color: black;
+}
+
+.homeimage{
+margin-top:-70px;
+ width:30%; 
+margin-left:10px;" 
+margin-left:0px;
+float: right;
+}
+
+pre{
+margin: 0;
+padding: 7px;
+font-size: 24px;
+font-family: Arial;
+color: white;
+}
+ input[type=number]{
+font-family: Arial;
+font-size:24px;
+border: none;
+border-bottom: 1px solid white;
+background-color: transparent;
+outline: none;
+height: 30px;
+color: white;
+display: 16px;
+}
+select{
+font-family: Arial;
+font-size:24px;
+border: none;
+border-bottom: 1px solid white;
+background-color: transparent;
+outline: none;
+height: 30px;
+width:200px;
+color: white;
+display: 16px;
+}
+
+option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0);
+    color: black;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+::placeholder{ 
+color: rgba(1,1,1,0.5);
+}
+
+.avatar {
+  margin-top: -350px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
